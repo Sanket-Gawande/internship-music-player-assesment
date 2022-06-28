@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <section className="bg-white rounded-md  overflow-y-auto shadow-md py-4 w-[95%] mx-auto my-6">
       {toast && ( 
-        <div className="fixed z-10 shadow-md bottom-2 left-2 rounded-md bg-[green]/10 text-slate-700 py-2 px-4" style={{top: "65px" , right : "10px" , background : " linear-gradient(45deg , teal , rgba(10 , 255 , 80 , 1))" , color : "white"}}>
+        <div className="fixed z-10 shadow-md h-10 max-w-[400px] bottom-2 right-4 rounded-md bg-[green]/10 text-slate-700 py-2 px-4" style={{top: "65px" , right : "10px" , background : " linear-gradient(45deg , teal , rgba(10 , 255 , 80 , 1))" , color : "white"}}>
           {toast}
         </div>
       )}
